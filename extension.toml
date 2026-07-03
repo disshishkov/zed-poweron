@@ -1,0 +1,11 @@
+id = "poweron"
+name = "PowerOn"
+version = "1.0.0"
+schema_version = 1
+authors = ["Dis Shishkov <dis.shishkov.regs@outlook.com>"]
+description = "Syntax highlighting for the PowerOn / Symitar scripting language"
+repository = "https://github.com/disshishkov/zed-poweron"
+
+[grammars.poweron]
+repository = "https://github.com/disshishkov/tree-sitter-poweron"
+commit = "f267f2ddc711fd59b850ff3fb6a92ad071380880"

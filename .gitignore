@@ -1,0 +1,7 @@
+# Zed downloads and compiles the tree-sitter grammar here at install/build time.
+# It is a build cache (cloned grammar repo + compiled .wasm) and must not be committed.
+/grammars/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
